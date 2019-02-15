@@ -1,37 +1,35 @@
 /* Generel styling*/
 * {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    box-sizing: border-box;
-    margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-p{
+p {
   font-family: 'proxima soft';
 }
 
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: 'lato';
   font-weight: 500;
 }
 
 /* frontpage */
-
 .main-wrapper {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-areas:
-        "v v v v v v v v"
-        "o o o o o o o o";
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-areas:
+    "v v v v v v v v"
+    "o o o o o o o o";
 }
 
-#header-video{
-  width:100%;
-  height:100%;
+#header-video {
+  width: 100%;
+  height: 100%;
 }
-
 
 #dimmed {
   display: flex;
@@ -39,26 +37,26 @@ h1,h2,h3,h4,h5,h6{
   grid-area: v;
 }
 
-#dimmed h1{
-font-size: 50px;
-color: #fff;
-position: absolute;
-top: 300px;
-z-index: 10;
-text-align: center;
-width: 100%;
-height: 100%;
+#dimmed h1 {
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  top: 300px;
+  z-index: 10;
+  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.timeline{
+.timeline {
   grid-area: t;
   top: 1300px;
   position: absolute;
+  left: 20px;
 }
 
 /* Section 1 - opstart */
-
-.opstart{
+.opstart {
   width: 100%;
   background-color: #151515;
   grid-area: o;
@@ -69,14 +67,14 @@ height: 100%;
   justify-content: center;
 }
 
-#bg{
+#bg {
   width: 100%;
   display: flex;
   justify-content: center;
   padding-right: 250px;
 }
 
-.opstart h2{
+.opstart h2 {
   background-color: #F9C904;
   padding: 10px 70px;
   color: #fff;
@@ -84,23 +82,22 @@ height: 100%;
   margin-top: 30px;
 }
 
-.opstart p{
+.opstart p {
   width: 20%;
   justify-content: flex-end;
   color: #fff;
   font-size: 16px;
   line-height: 23px;
   padding-top: 110px;
-
 }
 
-.opstart img{
-width: 550px;
-height: 350px;
-padding-left: 30px;
+.opstart img {
+  width: 550px;
+  height: 350px;
+  padding-left: 30px;
 }
 
-#content{
+#content {
   display: flex;
   width: 100%;
   justify-content: center;
