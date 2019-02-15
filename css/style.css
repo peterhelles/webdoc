@@ -7,66 +7,103 @@
     margin: 0;
 }
 
+p{
+  font-family: 'proxima soft';
+}
 
-/* Footer */
+h1,h2,h3,h4,h5,h6{
+  font-family: 'lato';
+  font-weight: 500;
+}
 
-footer {
-    grid-area: f;
-    background-color: #492628;
+/* frontpage */
+
+.main-wrapper {
     width: 100%;
-    flex-direction: row;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas:
+        "v v v v v v v v"
+        "o o o o o o o o";
 }
 
-#footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    height: 100%;
-    padding-top: 30px;
+#header-video{
+  width:100%;
+  height:100%;
 }
 
-#footer a {
-    text-decoration: none !important;
-    font-family: tondo, sans-serif;
-    font-weight: 300;
-    color: #FFFDED;
+
+#dimmed {
+  display: flex;
+  height: 100%;
+  grid-area: v;
+}
+
+#dimmed h1{
+font-size: 50px;
+color: #fff;
+position: absolute;
+top: 300px;
+z-index: 10;
+text-align: center;
+width: 100%;
+height: 100%;
+}
+
+.timeline{
+  grid-area: t;
+  top: 1300px;
+  position: absolute;
+}
+
+/* Section 1 - opstart */
+
+.opstart{
+  width: 100%;
+  background-color: #151515;
+  grid-area: o;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#bg{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 250px;
+}
+
+.opstart h2{
+  background-color: #F9C904;
+  padding: 10px 70px;
+  color: #fff;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.opstart p{
+  width: 20%;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 16px;
+  line-height: 23px;
+  padding-top: 110px;
 
 }
 
-#footer li {
-    display: block;
+.opstart img{
+width: 550px;
+height: 350px;
+padding-left: 30px;
 }
 
-#footer li a {
-    font-size: 14px;
-}
-
-#footer a:hover {
-    color: #fff;
-}
-
-.korn-footer img {
-    width: 168px;
-    position: relative;
-    margin-top: -40px;
-    margin-left: 80px;
-}
-
-.korn-footer {
-    background-color: #492628;
-}
-
-.copyright {
-    background-color: #492628;
-    width: 20%;
-    margin-left: 10px;
-}
-
-.copyright p {
-    font-size: 10px;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    color: #fff;
+#content{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  text-align: right;
 }
