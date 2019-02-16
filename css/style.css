@@ -33,29 +33,45 @@ h1, h2, h3, h4, h5, h6 {
 
 #header-video {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
-#dimmed {
+.dimmed {
   display: flex;
   height: 100%;
   grid-area: v;
 }
 
-#dimmed h1 {
-  font-size: 50px;
+.dimmed h1 {
+  font-size: 40px;
   color: #fff;
-  position: absolute;
   top: 300px;
-  z-index: 10;
   text-align: center;
+  width: 13%;
+  background-color: #F9C904;
+  padding: 8px 0;
+  font-weight: 300;
+  position: absolute;
+}
+
+.h1-top{
+  justify-content: center;
   width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+}
+
+#main-h1{
+  top: 380px !important;
+  width: 18%;
 }
 
 .timeline {
   grid-area: t;
-  top: 1300px;
+  top: 1500px;
   position: absolute;
   left: 20px;
 }
@@ -228,6 +244,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-video{
   display: flex;
-  height: 100%;
+  height: 100vh;
   grid-area: m;
 }
