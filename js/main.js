@@ -1,3 +1,6 @@
+
+
+// Play audio
 window.addEventListener("scroll", function() { // detect scroll event
 
   var mySound = document.getElementById("myaudio"); // select audio id
@@ -19,8 +22,6 @@ window.addEventListener("scroll", function() { // detect scroll event
 function elFllVsbl(el) {
   return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight);
 }
-
-
 
 
 //  Full page scroll

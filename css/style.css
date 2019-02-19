@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 .dimmed h1 {
   font-size: 40px;
   color: #fff;
-  top: 300px;
+  top: 330px;
   text-align: center;
   width: 13%;
   background-color: #F9C904;
@@ -64,13 +64,14 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   position: absolute;
   z-index: 10;
-
 }
 
 
 
+
+
 #main-h1{
-  top: 380px !important;
+  top: 410px !important;
   width: 18%;
 }
 
