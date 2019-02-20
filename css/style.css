@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+
 /* frontpage */
 .main-wrapper {
   width: 100%;
@@ -39,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 .dimmed {
   display: flex;
   height: 100%;
+  width: 100%;
   grid-area: v;
 }
 
