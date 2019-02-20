@@ -54,9 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
 }
 
-
-
-#h1-top{
+#h1-top {
   justify-content: center;
   width: 100%;
   display: flex;
@@ -66,11 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 10;
 }
 
-
-
-
-
-#main-h1{
+#main-h1 {
   top: 410px !important;
   width: 18%;
 }
@@ -133,26 +127,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Section 2 - Introducering til sang*/
-
-.sang{
+.sang {
   grid-area: s;
 }
 
-.sang img{
+.sang img {
   height: 700px;
   width: 500px;
 }
 
-.sang p{
+.sang p {
   width: 30%;
   padding-left: 30px;
 }
 
-.sang h2{
+.sang h2 {
   margin-left: 200px;
 }
 
-#content2{
+#content2 {
   text-align: left;
   display: flex;
   width: 100%;
@@ -160,35 +153,41 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: row;
 }
 
-/* Section 3 - Passion for musik */
+#bg1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 400px;
+}
 
-.passion{
+/* Section 3 - Passion for musik */
+.passion {
   grid-area: p;
 }
 
-.passion img{
+.passion img {
   width: 650px;
   height: 400px;
 }
 
-.passion h2{
+.passion h2 {
   margin-top: -30px;
 }
 
-#text-left{
+#text-left {
   width: 13%;
   padding-left: 50px;
   text-align: right;
   padding-top: 40px;
 }
 
-#text-right{
+#text-right {
   padding-left: 30px;
   padding-top: 0px;
   width: 16%;
 }
 
-#content3{
+#content3 {
   text-align: left;
   display: flex;
   width: 100%;
@@ -203,9 +202,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Section 4 - Nuværende punkt i hendes karriere*/
-
-.karriere{
+.karriere {
   grid-area: k;
+}
+
+#content4 {
+  text-align: left;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
 }
 
 #bg3 {
@@ -214,52 +220,55 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
-.karriere h2{
+.karriere h2 {
   margin-top: 375px;
   margin-left: 150px;
 }
 
-.karriere p{
+.karriere p {
   padding-left: 30px;
   padding-top: 5px;
 }
 
-.karriere img{
+.karriere img {
   height: 50%;
   width: 45%;
 }
 
 /* Section 5 - Fremtiden */
-
-.fremtiden{
+.fremtiden {
   grid-area: f;
   background-color: #1A1A1A;
 }
 
-.fremtiden img{
+.fremtiden img {
   height: 650px;
   width: 500px;
 }
 
-.fremtiden p{
+.fremtiden p {
   padding-left: 30px;
 }
 
-.fremtiden h2{
+.fremtiden h2 {
   margin-top: -25px;
   margin-left: 300px;
 }
 
-
-/* Section 6 - Uddybende video */
-
-.main-video{
+#bg4 {
+  width: 100%;
   display: flex;
-  height: 100vh;
-  grid-area: m;
+  justify-content: center;
+  padding-right: 400px;
 }
 
-
+#content5 {
+  text-align: left;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+}
 
 /* CSS - animationer */
 #topbtn {
