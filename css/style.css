@@ -113,8 +113,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .opstart img {
-  width: 700px;
-  height: 450px;
+  width: 40%;
+  height: 30%;
   padding-left: 30px;
 }
 
@@ -132,8 +132,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sang img {
-  height: 700px;
-  width: 500px;
+  height: 50%;
+  width: 30%;
 }
 
 .sang p {
@@ -166,8 +166,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .passion img {
-  width: 650px;
-  height: 400px;
+  width: 40%;
+  height: 30%;
 }
 
 .passion h2 {
@@ -242,8 +242,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fremtiden img {
-  height: 650px;
-  width: 500px;
+  height: 70%;
+  width: 30%;
 }
 
 .fremtiden p {
