@@ -292,24 +292,3 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding-top: 4px;
 }
-
-@media all and (max-width: 1200px){
-  .opstart img{
-    width: 475px;
-    height: 300px;
-  }
-
-  .sang img{
-    width: 400px;
-    height: 500px;
-  }
-
-  .passion img{
-    width: 500px;
-    height: 300px;
-  }
-
-  .fremtiden img{
-    width: 400px;
-    height: 500px;
-  }
